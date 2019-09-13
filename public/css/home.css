@@ -1,0 +1,52 @@
+body {
+  font-family: georgia, times, serif;
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.6em;
+  margin 0;
+}
+
+.h1 {
+  line-height: 1.3em;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px 0 #AAA,      /* Sombra 1 */
+               6px 6px 2px #777,    /* Sombra 2 */
+               12px 12px 8px #444;  /* Sombra 3 */
+}
+.main {
+  padding-top: 12rem;
+}
+.container-main h3{
+  padding-bottom: 50px;
+}
+.desc {
+  height: 500px;
+  margin: auto;
+  padding-top: 70px;
+  background-color: #F2F3F4;
+}
+.text-desc {
+  width: 475px;
+  padding-left: 120px;
+  float: left;
+}
+  .text-desc h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    vertical-align: inherit;
+  }
+  .text-desc p {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 10px;
+    width: 500px;
+}
+
+.img-desc {
+  float: left;
+  margin-left: 120px;
+}
+  .img-desc img {
+    width: 500px;
+    height: 300px;
+  }
